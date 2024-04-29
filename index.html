@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="menu.js" defer></script>
+    <title>Portifólio's Krislayne</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li>
+                        <a href="#home" class="menu__lista__item__link">
+                            <i class="bi bi-house-door"></i>
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="menu__lista__item__link">
+                            <i class="bi bi-heart"></i>
+                            Sobre mim
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#habilidades" class="menu__lista__item__link">
+                            <i class="bi bi-display"></i>
+                            Habilidades
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ports" class="menu__lista__item__link">
+                            <i class="bi bi-journal"></i>
+                            Projetos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#forms" class="menu__lista__item__link">
+                            <i class="bi bi-phone"></i>
+                            Contatos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
+
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="menu__lista__item">
+                        <a href="#home" class="menu__lista__item__link">
+                            <i class="bi bi-house-door"></i>
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="menu__lista__item">
+                        <a href="#about" class="menu__lista__item__link">
+                            <i class="bi bi-heart"></i>
+                            Sobre mim
+                        </a>
+                    </li>
+
+                    <li class="menu__lista__item">
+                        <a href="#habilidades" class="menu__lista__item__link">
+                            <i class="bi bi-display"></i>
+                            Habilidades
+                        </a>
+                    </li>
+                    <li class="menu__lista__item">
+                        <a href="#ports" class="menu__lista__item__link">
+                            <i class="bi bi-journal"></i>
+                            Projetos
+                        </a>
+                    </li>
+
+                    <li class="menu__lista__item">
+                        <a href="#forms" class="menu__lista__item__link">
+                            <i class="bi bi-phone"></i>
+                            Contatos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overlay-menu" id="overlay-menu"></div>
+    </header>
+    <main>
+        <section id="home" class="topo-do-site" data-aos="fade-down" data-aos-duration="5000">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Eu sou <span>Krislayne</span>,</h1>
+                        <p>Desenvolvedora Full-stack.</p>
+                        <div class="btn-minhas-redes">
+                            <p><a href="#forms"><button>Fale comigo!</button></a></p>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img class="img-topo-site-img" src="Imagens/imgprogramadora.png" alt="Foto programação">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="sobre">
+            <div class="interface" data-aos="fade-up-right" data-aos-duration="5000">
+                <div class="flex">
+                    <div class="txt-img">
+                        <img src="Imagens/fotoKris.png" alt="foto da kris">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>SOBRE <span>MIM</span></h2>
+                        <p>Me chamo Krislayne Vieira, graduanda no curso de Ciência e Tecnologia pela UFMA e desenvolvedora Back-end Java, com conhecimento em Front-end em JavaScript, HTML e CSS. Desenvolvo a parte do software que opera no servidor, lidando com a lógica, banco de dados e integrações.</p>
+                        <p>Tenho uma trajetória de um ano trabalhando com suporte técnico de computadores, o que me tornou uma profissional dedicada e organizada. Hoje na área de desenvolvimento vivo o aprendizado continuo, focando em tecnologias Java.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/_krislayneee__"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/KrislayneVieira"><button><i class="bi bi-github"></i></i></button></a>
+                            <a href="https://www.linkedin.com/krislayne-vieira"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="container" data-aos="fade-up" data-aos-duration="5000">
+            <h2 class="titulo">Minhas <span>habilidades</span></h2>
+            <div class="cards-container" >
+                <div class="custom-card">
+                    <div class="img-box">
+                        <img src="Imagens/javaCerto.jpg" alt="imagem do java"></div> 
+                    <div class="custom-conteudo">
+                        <p>Construindo soluções <br>robustas<br> para o seu negócio.</p>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="img-box">
+                        <img src="Imagens/javascript.jpeg" alt="imagem do javascript"></div>
+                    <div class="custom-conteudo">
+                        <p>Tornando a web mais <br>dinâmica e interativa.</p>
+                    </div> 
+                </div> 
+            </div>
+            <div class="cards-container">
+                <div class="custom-card">
+                    <div class="img-box">
+                        <img src="Imagens/html.jpeg" alt="imagem do html"></div>
+                    <div class="custom-conteudo">
+                        <p>Estruturando o caminho para<br> uma experiência web <br>excepcional.</p>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="img-box">
+                        <img src="Imagens/css1.jpeg" alt="imagem do css"></div>
+                    <div class="custom-conteudo">
+                        <p>Estilizando a web <br>com elegância e precisão.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <Section id="ports" class="portifolio">
+            <div class="interface" data-aos="fade-up" data-aos-duration="5000">
+                <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(Imagens/numero-secreto2.jpg);">
+                        <div class="overlay">Número Secreto</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(Imagens/aluramidicelular.jpg);">
+                        <div class="overlay">Alura Midi</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(Imagens/screencapture-projeto-cafeteria-five-vercel-app-2024-04-25-11_42_39.png);">
+                        <div class="overlay">Cafeteria Serenatto</div>
+                    </div>
+                </div>
+            </div>
+        </Section>
+
+        <section id="forms" class="formulario" data-aos="fade-up-right" data-aos-duration="5000">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO</span></h2>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Deixe uma mensagem:" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="Imagens/empresas-removebg-preview.png" alt="logo da alura">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/_krislayneee__"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/KrislayneVieira"><button><i class="bi bi-github"></i></i></button></a>
+                        <a href="https://www.linkedin.com/krislayne-vieira"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div>
+                </div>
+            </div>
+                <div class="line-footer2">
+                    <div class="flex">
+                        <div class="line-footer borda">
+                            <p><i class="bi bi-envelope-fill"></i><a href="mailto:silvaKrislayne5@gmail.com">silvaKrislayne5@gmail.com</a></p>
+                        </div>
+                        <div class="logo-footer2">
+                            <img src="Imagens/LogoAluraInclude(1).svg" alt="logo da alura">
+                        </div>
+                    </div>
+                </div>
+    </footer >
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
