@@ -1,6 +1,6 @@
 # Portfólio Pessoal
 
-Bem-vindos ao meu portfólio pessoal! Este projeto foi desenvolvido com o intuito de consolidar meus conhecimentos em HTML, CSS e JavaScript, e serve como uma vitrine para minhas habilidades e projetos. O objetivo deste portfólio é não só servir como meu portfólio oficial, mas também como um projeto de aprendizado para consolidar meus conhecimentos em HTML, CSS e JavaScript.
+Bem-vindos ao meu portfólio pessoal! Este projeto foi desenvolvido com o intuito de consolidar meus conhecimentos em HTML, CSS e JavaScript, e serve como uma vitrine para minhas habilidades e projetos.
 
 ## Tecnologias Utilizadas
 - **HTML**: Para a estruturação do conteúdo.
